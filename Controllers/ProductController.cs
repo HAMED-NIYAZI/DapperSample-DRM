@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ExcelDataReader;
+using Microsoft.AspNetCore.Mvc;
 using ProductSample.Models.ViewModel;
 using ProductSample.Services;
 
@@ -33,9 +34,9 @@ namespace ProductSample.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ProductViewModel productViewModel)
         {
-        // var res= await _productService.AddAsync(productViewModel);
-         var res= await _productService.AddWithSPAsync(productViewModel);
-            if(res==ProductResult.SuccessFull) return RedirectToAction(nameof(Index));
+            // var res= await _productService.AddAsync(productViewModel);
+            var res = await _productService.AddWithSPAsync(productViewModel);
+            if (res == ProductResult.SuccessFull) return RedirectToAction(nameof(Index));
             return RedirectToRoute("/Home/Error");
         }
 
@@ -57,11 +58,11 @@ namespace ProductSample.Controllers
 
             //validation
             await _productService.UpdateAsync(productViewModel);
-             return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index));
 
         }
 
-         public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
 
 
@@ -69,6 +70,42 @@ namespace ProductSample.Controllers
             await _productService.DeleteByIdAsync(id);
             return RedirectToAction(nameof(Index));
 
+        }
+
+        public async Task<IActionResult> BulkInsert()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> BulkInsert(IFormFile excelFile)
+        {
+            var products = new List<ProductViewModel>();
+
+            using (var memoryStrem = new MemoryStream())
+            {
+                excelFile.CopyTo(memoryStrem);
+                using (var reader = ExcelReaderFactory.CreateReader(memoryStrem))
+                {
+                    do
+                    {
+                        while (reader.Read())
+                        {
+                            if (reader[0].ToString().ToLower() == "ProductName".ToLower()) continue;
+                            var product = new ProductViewModel();
+
+                            product.ProductName = reader[0].ToString();
+                            product.CategoryID = Convert.ToInt32(reader[1]);
+                            product.SupplierID = Convert.ToInt32(reader[2]);
+                            product.UnitPrice = Convert.ToDouble(reader[3]);
+
+                            products.Add(product);
+                        }
+                    } while (reader.NextResult());
+                }
+
+            }
+            return View();
         }
 
     }

@@ -66,3 +66,38 @@ E:\learning\Dapper\درم بخت\ProductSample\obj\Debug\net6.0\refint\ProductSa
 E:\learning\Dapper\درم بخت\ProductSample\obj\Debug\net6.0\ProductSample.pdb
 E:\learning\Dapper\درم بخت\ProductSample\obj\Debug\net6.0\ProductSample.genruntimeconfig.cache
 E:\learning\Dapper\درم بخت\ProductSample\obj\Debug\net6.0\ref\ProductSample.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\appsettings.Development.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\appsettings.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.staticwebassets.runtime.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.exe
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.deps.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.runtimeconfig.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ProductSample.pdb
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\Dapper.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.csproj.AssemblyReference.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.GeneratedMSBuildEditorConfig.editorconfig
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.AssemblyInfoInputs.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.AssemblyInfo.cs
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.csproj.CoreCompileInputs.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.MvcApplicationPartsAssemblyInfo.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.RazorAssemblyInfo.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.RazorAssemblyInfo.cs
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\staticwebassets.build.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\staticwebassets.development.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\scopedcss\bundle\ProductSample.styles.css
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\scopedcss\projectbundle\ProductSample.bundle.scp.css
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.csproj.CopyComplete
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\refint\ProductSample.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.pdb
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.genruntimeconfig.cache
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ref\ProductSample.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ExcelDataReader.dll

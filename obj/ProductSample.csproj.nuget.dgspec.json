@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\learning\\Dapper\\درم بخت\\ProductSample\\ProductSample.csproj": {}
+    "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\ProductSample.csproj": {}
   },
   "projects": {
-    "E:\\learning\\Dapper\\درم بخت\\ProductSample\\ProductSample.csproj": {
+    "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\ProductSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\learning\\Dapper\\درم بخت\\ProductSample\\ProductSample.csproj",
+        "projectUniqueName": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\ProductSample.csproj",
         "projectName": "ProductSample",
-        "projectPath": "E:\\learning\\Dapper\\درم بخت\\ProductSample\\ProductSample.csproj",
+        "projectPath": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\ProductSample.csproj",
         "packagesPath": "C:\\Users\\Hamed\\.nuget\\packages\\",
-        "outputPath": "E:\\learning\\Dapper\\درم بخت\\ProductSample\\obj\\",
+        "outputPath": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

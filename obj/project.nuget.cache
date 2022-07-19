@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3MHvi6m4Ojt2Znylnma7mGMkScZFmAsxenc+0QryiEFo+9wPv1srHwfhSmMNBSD3gpJZb5Ch5TbyXMUFfkl5w==",
+  "dgSpecHash": "r6xoD08AkaCWhKuFXDXUzgx9Rbf6zhlRhXxxAhPsEsCo9gT75uBfTZYFp+fgDfXNHqCnTAX5oWktvkSApM4GhA==",
   "success": true,
-  "projectFilePath": "E:\\learning\\Dapper\\درم بخت\\ProductSample\\ProductSample.csproj",
+  "projectFilePath": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\ProductSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hamed\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Hamed\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
     "C:\\Users\\Hamed\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hamed\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Hamed\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
