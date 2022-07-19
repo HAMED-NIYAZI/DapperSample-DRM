@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProductSample.Models.ViewModel.ProductViewModel>
+
+<div class="card m-3">
+    <div class="card-header">
+        Products List
+
+    </div>
+    <div class="card-body">
+        <a class="btn btn-outline-success mb-2" asp-action="Create">Create new product</a>
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ProductID</th>
+                    <th scope="col">ProductName</th>
+                    <th scope="col">SupplierName</th>
+                    <th scope="col">CategoryName</th>
+                    <th scope="col">UnitPrice</th>
+                    <th scope="col"> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="col">@item.ProductID</th>
+                        <th scope="col">@item.ProductName</th>
+                        <th scope="col">@item.CompanyName</th>
+                        <th scope="col">@item.CategoryName</th>
+                        <th scope="col">@item.UnitPrice</th>
+                        <th scope="col"> 
+                            <a asp-action="Edit" asp-route-id="@item.ProductID" class="btn btn-warning btn-sm">Edit</a>
+@*                            <a href="/Product/Delete/@item.ProductID" class="btn btn-danger btn-sm">Delete</a>
+*@                          
+                            <a asp-action="Delete" asp-route-id="@item.ProductID" class="btn btn-danger btn-sm"
+                            onclick="return confirm('Are you sure to remove this product?')"
+                             >Delete</a>
+
+                        </th>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+</div>
