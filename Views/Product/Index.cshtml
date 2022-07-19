@@ -11,6 +11,7 @@
         <table class="table table-bordered table-striped">
             <thead class="thead-dark">
                 <tr>
+                    <th></th>
                     <th scope="col">ProductID</th>
                     <th scope="col">ProductName</th>
                     <th scope="col">SupplierName</th>
@@ -23,6 +24,7 @@
                 @foreach (var item in Model)
                 {
                     <tr>
+                        <td> <input type="checkbox" data-id="@item.ProductID"/></td>
                         <th scope="col">@item.ProductID</th>
                         <th scope="col">@item.ProductName</th>
                         <th scope="col">@item.CompanyName</th>

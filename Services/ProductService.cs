@@ -47,6 +47,23 @@ namespace ProductSample.Services
         //    return ProductResult.SuccessFull;
         //}
 
+        public async Task<ProductResult> BulkAddAsync(List<ProductViewModel> products)
+        {
+            var sqlQuery = @"INSERT INTO Products (ProductName,SupplierID,CategoryID,UnitPrice)
+                            VALUES(@ProductName, @SupplierID, @CategoryID, @UnitPrice)";
+            int res = 0;
+            using (var db = _dapperUtility.GetMyConnection())
+            {
+                res = await db.ExecuteAsync(sqlQuery, products);
+            }
+
+
+            if (res == 0) return ProductResult.Failed;
+            return ProductResult.SuccessFull;
+
+        }
+
+
 
         public async Task<ProductResult> AddWithSPAsync(ProductViewModel productViewModel)
         {
@@ -76,6 +93,15 @@ namespace ProductSample.Services
             using (var db = _dapperUtility.GetMyConnection())
             {
                  await db.ExecuteAsync(sql,new { ProductID=id });
+            }
+        }
+
+        public async Task BulkDeleteByIdAsync(int[] ids)
+        {
+            var sql = "DELETE FROM Products WHERE ProductID=@ProductID";
+            using (var db = _dapperUtility.GetMyConnection())
+            {
+                await db.ExecuteAsync(sql,  ids );
             }
         }
 

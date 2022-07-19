@@ -103,9 +103,12 @@ namespace ProductSample.Controllers
                         }
                     } while (reader.NextResult());
                 }
-
+                if (products.Count > 0)
+                {
+                    await _productService.BulkAddAsync(products);
+                }
             }
-            return View();
+            return View(RedirectToAction(nameof(Index)));
         }
 
     }
