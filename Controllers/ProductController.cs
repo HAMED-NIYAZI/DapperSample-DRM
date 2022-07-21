@@ -72,7 +72,7 @@ namespace ProductSample.Controllers
 
         }
 
-        public async Task<IActionResult> BulkInsert()
+        public  IActionResult BulkInsert()
         {
             return View();
         }
@@ -91,13 +91,17 @@ namespace ProductSample.Controllers
                     {
                         while (reader.Read())
                         {
-                            if (reader[0].ToString().ToLower() == "ProductName".ToLower()) continue;
-                            var product = new ProductViewModel();
-
-                            product.ProductName = reader[0].ToString();
-                            product.CategoryID = Convert.ToInt32(reader[1]);
-                            product.SupplierID = Convert.ToInt32(reader[2]);
-                            product.UnitPrice = Convert.ToDouble(reader[3]);
+                            if (reader[0].ToString()?.ToLower() == "ProductName".ToLower())
+                            {
+                                continue;
+                            }
+                            var product = new ProductViewModel
+                            {
+                                ProductName = reader[0].ToString(),
+                                CategoryID = Convert.ToInt32(reader[1]),
+                                SupplierID = Convert.ToInt32(reader[2]),
+                                UnitPrice = Convert.ToDouble(reader[3])
+                            };
 
                             products.Add(product);
                         }
@@ -108,7 +112,7 @@ namespace ProductSample.Controllers
                     await _productService.BulkAddAsync(products);
                 }
             }
-            return View(RedirectToAction(nameof(Index)));
+            return RedirectToAction(nameof(Index));
         }
 
     }

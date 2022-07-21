@@ -11,7 +11,7 @@
         <table class="table table-bordered table-striped">
             <thead class="thead-dark">
                 <tr>
-                    <th></th>
+                    <th> <input type="checkbox" onchange="selectAllCeckBox(this)" /></th>
                     <th scope="col">ProductID</th>
                     <th scope="col">ProductName</th>
                     <th scope="col">SupplierName</th>
@@ -24,19 +24,18 @@
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td> <input type="checkbox" data-id="@item.ProductID"/></td>
+                        <td> <input type="checkbox" data-id="@item.ProductID" /></td>
                         <th scope="col">@item.ProductID</th>
                         <th scope="col">@item.ProductName</th>
                         <th scope="col">@item.CompanyName</th>
                         <th scope="col">@item.CategoryName</th>
                         <th scope="col">@item.UnitPrice</th>
-                        <th scope="col"> 
+                        <th scope="col">
                             <a asp-action="Edit" asp-route-id="@item.ProductID" class="btn btn-warning btn-sm">Edit</a>
-@*                            <a href="/Product/Delete/@item.ProductID" class="btn btn-danger btn-sm">Delete</a>
-*@                          
+                            @*                            <a href="/Product/Delete/@item.ProductID" class="btn btn-danger btn-sm">Delete</a>
+                        *@
                             <a asp-action="Delete" asp-route-id="@item.ProductID" class="btn btn-danger btn-sm"
-                            onclick="return confirm('Are you sure to remove this product?')"
-                             >Delete</a>
+                           onclick="return confirm('Are you sure to remove this product?')">Delete</a>
 
                         </th>
                     </tr>
@@ -49,3 +48,12 @@
 
 
 </div>
+
+@section Scripts{
+    <script>
+        function selectAllCeckBox(el) {
+            $('table tbody input[type="checkbox"]').remove();
+        }
+    </script>
+}
+

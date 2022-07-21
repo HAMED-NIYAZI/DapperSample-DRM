@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VzzZqapIANu6WxDQRmQ2KkI9KbOLNo2sq+7Z2WSpKJE=",
+  "Hash": "7kOMJvKNcBqogAfTUndpZVJqiD/sO2juLKPtpV9FjTA=",
   "Source": "ProductSample",
   "BasePath": "_content/ProductSample",
   "Mode": "Default",
@@ -678,6 +678,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "ProductSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\",
+      "BasePath": "_content/ProductSample",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\lib\\jquery\\dist\\jquery.validate.min.js",
+      "SourceId": "ProductSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\",
+      "BasePath": "_content/ProductSample",
+      "RelativePath": "lib/jquery/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\lib\\jquery\\dist\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "ProductSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\learning\\Dapper\\drm\\HAMED-NIYAZI\\DapperSample-DRM\\wwwroot\\",
+      "BasePath": "_content/ProductSample",
+      "RelativePath": "lib/jquery/dist/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.validate.unobtrusive.min.js"
     }
   ]
 }

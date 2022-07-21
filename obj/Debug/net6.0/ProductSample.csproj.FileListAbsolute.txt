@@ -101,3 +101,5 @@ E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSam
 E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ProductSample.genruntimeconfig.cache
 E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\obj\Debug\net6.0\ref\ProductSample.dll
 E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\ExcelDataReader.dll
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\package-lock.json
+E:\learning\Dapper\drm\HAMED-NIYAZI\DapperSample-DRM\bin\Debug\net6.0\package.json

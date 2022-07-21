@@ -96,6 +96,8 @@ namespace ProductSample.Services
             }
         }
 
+
+
         public async Task BulkDeleteByIdAsync(int[] ids)
         {
             var sql = "DELETE FROM Products WHERE ProductID=@ProductID";
@@ -144,6 +146,17 @@ namespace ProductSample.Services
 
             using var db = _dapperUtility.GetMyConnection();
             await db.ExecuteAsync(sql, productViewModel);
+        }
+
+        public async Task BulkUpdateAsync(List<ProductViewModel> productViewModels)
+        {
+            var sql = @"UPDATE Products
+                        SET ProductName = @ProductName, CategoryID = @CategoryID,
+                        SupplierID = @SupplierID, UnitPrice = @UnitPrice
+                        WHERE ProductID = @ProductID";
+
+            using var db = _dapperUtility.GetMyConnection();
+            await db.ExecuteAsync(sql, productViewModels);
         }
     }
 }
